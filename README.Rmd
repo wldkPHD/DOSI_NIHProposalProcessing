@@ -30,14 +30,14 @@ git_version   <- gitr::git_version()
 
 # Repository ``r repo_name``
 
-<This is a free text repository description.>
+This GitHub repository is made for storing the code and associated documents for processing the National Institute of Health proposals that are submitted at Duke University on a quarterly basis (e.g., Jan - Mar, Apr - Jun, Jul - Sep, Oct - Dec).
 
 # License
 
 <!-- TODO: Choose a license and update this section, if necessary -->
 
 [Repository `r repo_name`](`r repo_url`) © `r CREATION_YEAR` by
-[`r AUTHOR_NAME`](`r profile_url`) is licensed under [CC BY 4.0][license].
+[`r AUTHOR_NAME`](`r profile_url`) is licensed under [CC BY-NC 4.0][license].
 Please see the [license file][licfile].
 
 [license]: https://creativecommons.org/licenses/by/4.0
