@@ -8,18 +8,9 @@ editor_options:
 
 ```{r config}
 #| echo: false
-
-# TODO: Substitute "<username>" by your own GitHub user name, e.g.:
-#   GITHUB_USERNAME <- "JohnDoe"
-GITHUB_USERNAME <- "<username>"
-# TODO: Substitute "<author_name>" by your own name, as you want to be credited
-#   in attributions, e.g.:
-#   AUTHOR_NAME <- "John M. Doe, Ph.D."
-AUTHOR_NAME     <- "<author_name>"
-# TODO: Change the following line to a fixed value if preferred, e.g.:
-#   creation_year   <- 2025L
-CREATION_YEAR   <- lubridate::now() |> lubridate::year()
-
+GITHUB_USERNAME <- "wldkPHD"
+AUTHOR_NAME     <- "William L. D. Krenzer, Ph.D"
+CREATION_YEAR   <- 2025L
 
 # Objects created automatically (no need to edit)
 
@@ -39,7 +30,6 @@ git_version   <- gitr::git_version()
 
 # Repository ``r repo_name``
 
-<!-- TODO: Add a repository description -->
 <This is a free text repository description.>
 
 # License
